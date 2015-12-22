@@ -1,6 +1,6 @@
 FROM scratch
 
-ADD rootfs.tar /
+ADD postgres_rootfs.tar /
 
 ENV PG_MAJOR 9.4
 ENV PG_VERSION 9.4.5
